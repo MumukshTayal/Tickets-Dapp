@@ -1,4 +1,27 @@
+.header {
+  margin-bottom: 20px;
+}
 
+#tickets {
+  grid-template-columns: repeat(4, 1fr);
+  display: grid;
+}
+
+.ticket {
+  margin-bottom: 20px;
+}
+
+.accountBox {
+  background: #10b5df;
+  border: 4px solid #000;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 8px;
+}
+
+.Title {
+  margin: 20px;
+}
 
 :root {
   --bs-blue: #0d6efd;

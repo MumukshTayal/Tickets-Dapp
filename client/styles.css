@@ -1,0 +1,27 @@
+.header {
+    margin-bottom: 20px;
+}
+
+#tickets {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+
+.ticket {
+    margin-bottom: 20px;
+}
+
+.accountBox {
+    background: rgb(16, 181, 223);
+    padding: 8px;
+    border-radius: 5px;
+    margin: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+}
+
+.Title {
+    margin:20px;
+}
